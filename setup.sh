@@ -18,6 +18,8 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 
+sudo npm install -g nodemon
+
 # install express
 sudo npm install -g express
 
@@ -33,4 +35,5 @@ sudo apt-get update
 
 # install latest stable version of mongodb
 sudo apt-get install mongodb-10gen
+
 
