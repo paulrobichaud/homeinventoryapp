@@ -1,0 +1,26 @@
+HOME INVENTORY APPLICATION (HIA)
+==========================
+
+SUMMARY
+
+HIA will enable users to create an inventory of valuables for their home.
+It will enable capture of data on each item, and efficient tagging and 
+categorizing for quick search and retrieval. It will also enable users to export a report for legal or insurance purposes.
+
+High level requirements
+
+1. Users can add items to their inventory by capturing the following data:
+  - Item Name 
+  - Item Location (Room) 
+  - Purchase Date
+  - Purchase Price
+  - Item Photo(s)
+  - Receipt (scanned or photographed)
+  - Notes
+
+2. Users can search and filter items using the following criteria:
+  - Item Name
+  - Price (<, =, >)
+  - Room 
+
+3. Users can export a home inventory report in .csv format   

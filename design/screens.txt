@@ -1,0 +1,8 @@
+List of needed screens
+
+1. A login screen.
+2. A main screen with a list of items ordered by purchase price
+3. A screen that shows details of each individual item
+4. A screen for editing individual item details
+5. A screen for adding new items
+6. A screen for 'about us' information 
