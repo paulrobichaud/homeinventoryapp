@@ -26,14 +26,14 @@ sudo npm install -g express
 # install mongodb
 
 # import mongodb public key
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 
 # create apt package list
-echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+#echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 
 sudo apt-get update
 
 # install latest stable version of mongodb
-sudo apt-get install mongodb-10gen
+#sudo apt-get install mongodb-10gen
 
 
