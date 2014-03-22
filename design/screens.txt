@@ -6,3 +6,11 @@ List of needed screens
 4. A screen for editing individual item details
 5. A screen for adding new items
 6. A screen for 'about us' information 
+
+Collection		Screen		URL
+Items			list of items	/
+Items			item detail	/item
+Items		        item entry form /item/new
+Other			signin page	/signin
+Other			about page	/about				
+
