@@ -1,0 +1,31 @@
+extends layout
+
+block content
+    h1= title
+    form(action='/item/new', method='post')
+      | Item Name: 
+      input(name='name', type='text')
+      br
+      | Item Location:
+      input(name='location', type='text')
+      br
+      | Purchase Date:
+      input(name='purchase_date', type='date')
+      br
+      | Purchase Price:
+      input(name='purchase_price', type='text')
+      br
+      | Item Photo:
+      input(name='photo', type='file')
+      br
+      | Item Receipt:
+      input(name='receipt', type='file')
+      br
+      | Notes:
+      br
+      textarea(name='notes', width='300', height='150')      
+
+
+ 
+      input(type='submit', value='Submit')
+

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  
+  #item  
+      h3 #{item.name}
+        li Location: #{item.location}
+        li Date Purchase: #{item.purchase_date}
+        li Purchase Price: #{item.purchase_price}
+        li Notes: #{item.notes} 
+        li Photo: 
+        br
+        img(src='#{item.photo}')
+        li Receipt:
+        br
+        img(src='#{item.receipt}')
+        

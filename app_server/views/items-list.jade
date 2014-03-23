@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= pageHeader.title
+     h2 #{pageHeader.strapline}
+    
+  ul    
+    each item in items
+      h3 #{item.name}
+        li Location: #{item.location}
+        li Photo: 
+        br
+        img(src='#{item.photo}')
