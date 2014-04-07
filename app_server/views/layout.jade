@@ -1,25 +1,53 @@
 doctype html
 html
   head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0') 
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stlesheet', href='/bootstrap/css/bootstrap-theme.min.css')
   body
       .container
-        li
-          a(href='/about/') About
-        li
-          a(href='/signin/') Sign in 
-
-
+        .navbar.navbar-inverse.navbar-fixed-top
+          .container
+            .navbar-header
+              .button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-collapse') 
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#') Stow
+            .navbar-collapse.collapse
+              ul.nav.navbar-nav
+                li.active
+                  a(href='/') Home
+                li
+                  a(href='/about') About
+                li
+                  a(href='/item/new') New Item
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown')
+                    | Dropdown
+                    b.caret
+                    ul.dropdown-menu
+                      li
+                        a(href='#') Action
+                      li
+                        a(href='#') Another action
+                      li
+                        a(href='#') Something else
+                      li.divider
+                      li.dropdown-header Nav Header
+                      li
+                        a(href='#') Separated link
+                      li
+                        a(href='#') Another separated link
+  
   .container
     block content
 
-    footer
-      .row
-        .col-xs-12
-          small &copy; Stow 2014
-
-
+    .well
+      p
+        | Stow 2014 
 
 script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
-    script(src='/bootstrap/js/bootstrap.min.js')
+script(src='/bootstrap/js/bootstrap.min.js')
+

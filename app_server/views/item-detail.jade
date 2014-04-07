@@ -1,18 +1,34 @@
 extends layout
 
 block content
-  h1= title
-  
-  #item  
-      h3 #{item.name}
-        li Location: #{item.location}
-        li Date Purchase: #{item.purchase_date}
-        li Purchase Price: #{item.purchase_price}
-        li Notes: #{item.notes} 
-        li Photo: 
-        br
-        img(src='#{item.photo}')
-        li Receipt:
-        br
-        img(src='#{item.receipt}')
-        
+  #banner.page-header
+      .row
+        .col-lg-6
+          h1 Stow
+           small &nbsp;A place for all of your nice stuff!
+
+  #item
+  h3 #{item.name} 
+  table.table.table-striped
+    thead
+      tr
+      th Location:
+      th #{item.location} 
+      tr
+      th Date Purchased:
+      th #{item.purchase_date}
+      tr
+      th Purchase Price:
+      th #{item.purchase_price}
+      tr
+      th Notes:
+      th #{item.notes}
+      tr
+      th Photo:
+      th Receipt:       
+      tr
+      th 
+        img.img-thumbnail(src='#{item.photo}')     
+      th
+        img.img-thumbnail(src='#{item.receipt}') 
+      

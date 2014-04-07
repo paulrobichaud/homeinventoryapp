@@ -1,13 +1,23 @@
 extends layout
 
 block content
-  h1= pageHeader.title
-     h2 #{pageHeader.strapline}
-    
-  ul    
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1 Stow
+         small &nbsp;A place for all of your nice stuff!    
+  table.table.table-striped
+    thead    
+      tr    
+      th Item Name
+      th Location
+      th Photo
+    tbody
     each item in items
-      h3 #{item.name}
-        li Location: #{item.location}
-        li Photo: 
-        br
-        img(src='#{item.photo}')
+      tr
+        td
+          a(href='/item') #{item.name}
+        td #{item.location}
+        td 
+          img.img-thumbnail(src='#{item.photo}')      
+ 
