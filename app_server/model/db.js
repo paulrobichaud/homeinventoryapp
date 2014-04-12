@@ -20,9 +20,31 @@ mongoose.connection.on('disconnected', function() {
   console.log('Mongoose disconnected');
 });
 
+/**
+ * @msg message explaining reason for the db disconnect
+ * @callback function to run when the connection is closed
+*/
+var gracefulShutdown = function (msg, callback) {
+  mongoose.connection.close( function() {
+    console.log('Mongoose disconnected through ' + msg);
+    callback();
+  });
+};
+
+process.on('SIGUSR2', function() {
+  gracefulShutdown('nodemon restart', function() {
+    process.kill(process.pid, 'SIGUSR2');
+  });
+});
+
 process.on('SIGINT', function() {
-  mongoose.connection.close(function() {
-    console.log('Mongoose disconnected through app terminitaion');
+  gracefulShutdown('app termination', function() {
+    process.exit(0);
+  });
+});
+
+process.on('SIGTERM', function() {
+  gracefulShutdown('Heroku app shutdown', function() {
     process.exit(0);
   });
 });

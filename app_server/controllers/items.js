@@ -4,8 +4,7 @@
 var mongoose = require('mongoose')
   , Item  = mongoose.model('Item')
 
-module.exports.mainItemList = function(req, res){
-
+module.exports.listAllItems = function(req, res){
 
   console.log("Getting all items ...");
   Item.findAll(
@@ -29,63 +28,36 @@ module.exports.mainItemList = function(req, res){
     })
 };
 
+module.exports.displayItemDetailx = function(req, res){
 
+console.log(req.params.id);
+console.log(req.params._id);
 
+}
 
+module.exports.displayItemDetail = function(req, res){
+  console.log("Finding item _id: " + req.params.id);
 
-module.exports.itemList = function(req, res){
-  res.render('items-list', { 
-    title: 'Stow - A tool to track all your nice stuff',
-    pageHeader: {
-      title: 'Stow',
-      strapline: 'A tool to track all your nice stuff!'
-    },
-    items: [{
-      name: 'Audi Q5',
-      location: 'Garage',
-      purchase_date: '10.12.2013',
-      purchase_price: '$40,000',
-      photo: '/images/photos/audi.jpeg',
-      receipt: '/images/receipts/receipt.jpeg',
-      notes: 'A very nice car'
-    },
-    { 
-      name: 'Diamond Ring', 
-      location: 'Safe',
-      purchase_date: '8.10.2013',
-      purchase_price: '$4,000',
-      photo: '/images/photos/ring.jpeg',
-      receipt: '/images/receipts/receipt.jpeg',
-      notes: 'very nice ring'
-    },
-    { 
-      name: 'iPhone',
-      location: 'Study',
-      purchase_date: '10.10.2012',
-      purchase_price: '$500',
-      photo: '/images/photos/iphone.jpeg',
-      receipt: '/images/receipts/receipt.jpeg',
-      notes: 'cool tech'
- }]});
-};
-
-
-module.exports.itemInfo = function(req, res){
-  res.render('item-detail', { 
-    title: 'Item Info',
-    item: {
-      name: 'iPhone',
-      location: 'Study',
-      purchase_date: '10.10.2012',
-      purchase_price: '$500',
-      photo: '/images/photos/iphone.jpeg',
-      receipt: '/images/receipts/receipt.jpeg',
-      notes: 'cool tech'
-    } 
-
-
-
-});
+  Item.findById( req.params.id, function(err,item) {
+    if(err){
+      console.log(err);
+      res.get('/');
+    }else{
+      console.log(item);
+      res.render('item-detail', {
+        title: 'Item Info',
+        item: {
+          name: item.name,
+          location: item.location,
+          purchase_date: item.purchase_date,
+          purchase_price: item.purchase_price,
+          photo: item.photo,
+          receipt: item.receipt,
+          notes: item.notes
+        }
+      });
+    }
+   });
 };
 
 module.exports.displayNewItemForm = function(req, res){
@@ -115,6 +87,6 @@ module.exports.newItemFormSubmit = function(req, res){
   });
  
  
-  res.redirect('/');
+  res.get('/');
 };
 

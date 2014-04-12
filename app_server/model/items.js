@@ -15,5 +15,12 @@ itemSchema.statics.findAll = function (callback) {
     {},
     callback);
 }
+
+itemSchema.statics.findById = function (id, callback) {
+
+  this.findOne(
+    {_id: id},
+    callback);
+}
  
 mongoose.model('Item', itemSchema);
