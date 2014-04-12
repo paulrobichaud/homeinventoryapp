@@ -28,13 +28,6 @@ module.exports.listAllItems = function(req, res){
     })
 };
 
-module.exports.displayItemDetailx = function(req, res){
-
-console.log(req.params.id);
-console.log(req.params._id);
-
-}
-
 module.exports.displayItemDetail = function(req, res){
   console.log("Finding item _id: " + req.params.id);
 
@@ -67,15 +60,14 @@ module.exports.displayNewItemForm = function(req, res){
 module.exports.newItemFormSubmit = function(req, res){
   
   console.log(req.body);
-  console.log("NAME: " + req.body.name); 
-
-  console.log(req.files);
 
   var newItem = new Item({
     name: req.body.name,
     location: req.body.location,
     purchase_date: req.body.purchase_date,
     purchase_price: req.body.purchase_price,
+    photo: req.body.photo,
+    receipt: req.body.receipt,
     notes: req.body.notes
   })
 
@@ -85,8 +77,6 @@ module.exports.newItemFormSubmit = function(req, res){
       console.log('_id of user: ' + item._id);
     }
   });
- 
- 
-  res.get('/');
+  res.redirect('/');
 };
 
