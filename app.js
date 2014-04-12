@@ -20,6 +20,20 @@ fs.readdirSync(models_path).forEach(function (file) {
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, '/app_server/views'));
 app.set('view engine', 'jade');
+
+// express middle ware that forces reload of index page always
+
+app.use(function noCacheForRoot(req, res, next) {
+  if (req.url === '/') {
+    res.header("Cache-Control", "no-cache, no-store, must-revalidate");
+    res.header("Pragma", "no-cache");
+    res.header("Expires", 0);
+  }
+  next();
+});
+
+
+
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
