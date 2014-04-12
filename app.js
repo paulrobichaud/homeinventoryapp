@@ -2,12 +2,21 @@
 /**
  * Module dependencies.
  */
-
-var express = require('express');
-var http = require('http');
-var path = require('path');
+var db = require('./app_server/model/db')
+  , express = require('express')
+  , http = require('http')
+  , path = require('path')
+  , fs = require('fs')
 
 var app = express();
+
+// bootstrap models
+var models_path = __dirname + '/app_server/model'
+fs.readdirSync(models_path).forEach(function (file) {
+  if (~file.indexOf('.js')) require(models_path + '/' + file)
+})
+
+
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -33,3 +42,4 @@ require('./routes')(app);
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+

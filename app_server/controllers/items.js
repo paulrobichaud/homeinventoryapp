@@ -1,3 +1,38 @@
+/**
+ * Module dependencies
+ */
+var mongoose = require('mongoose')
+  , Item  = mongoose.model('Item')
+
+module.exports.mainItemList = function(req, res){
+
+
+  console.log("Getting all items ...");
+  Item.findAll(
+    function ( err, items ) {
+      if(!err){
+        console.log(items);
+        res.set('Content-Type', 'text/html')
+
+        res.render('items-list', {
+          title: 'Stow - A tool to track all your nice stuff',
+            pageHeader: {
+              title: 'Stow',
+              strapline: 'A tool to track all your nice stuff!'
+            },
+          items: items
+        }) 
+      }else{
+         console.log(err);
+         res.json({"status":"error", "error":"Error finding all items"});
+       }
+    })
+};
+
+
+
+
+
 module.exports.itemList = function(req, res){
   res.render('items-list', { 
     title: 'Stow - A tool to track all your nice stuff',
@@ -34,6 +69,7 @@ module.exports.itemList = function(req, res){
  }]});
 };
 
+
 module.exports.itemInfo = function(req, res){
   res.render('item-detail', { 
     title: 'Item Info',
@@ -57,8 +93,28 @@ module.exports.displayNewItemForm = function(req, res){
 };
 
 module.exports.newItemFormSubmit = function(req, res){
+  
   console.log(req.body);
-  console.log(req.files); 
+  console.log("NAME: " + req.body.name); 
+
+  console.log(req.files);
+
+  var newItem = new Item({
+    name: req.body.name,
+    location: req.body.location,
+    purchase_date: req.body.purchase_date,
+    purchase_price: req.body.purchase_price,
+    notes: req.body.notes
+  })
+
+  newItem.save( function(err,item){
+    if(!err){
+      console.log('Item: ' + item.name + ' saved!');
+      console.log('_id of user: ' + item._id);
+    }
+  });
+ 
+ 
   res.redirect('/');
 };
 
