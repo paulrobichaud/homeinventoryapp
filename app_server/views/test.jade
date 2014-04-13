@@ -1,0 +1,47 @@
+html
+  body
+    h1 Edit your account
+    hr
+    h2 Your avatar
+    input#files(type='file')
+    p#status Please select a file
+    div#preview(style='border:1px solid gray;width:300px;')
+      img(src='/images/default.png', style='width:300px;')
+    h2 Your information
+    form(method='POST', action='/submit_form/')
+      input#avatar_url(type='hidden', name='avatar_url', value='/public/images/default.png')
+      input(type='text', name='username', placeholder='Username')
+      br
+      input(type='text', name='full_name', placeholder='Full name')
+      br
+      br
+      hr
+      h2 Save changes
+      input(type='submit', value='Update profile')
+    script(type='text/javascript', src='http://code.jquery.com/jquery-1.9.1.js')
+    script(type='text/javascript', src='/js/lodash.min.js')
+    script(type='text/javascript', src='/js/s3upload.js')
+    script(type='text/javascript').
+      function s3_upload(){
+         var s3upload = new S3Upload({
+              file_dom_selector: '#files',
+              s3_sign_put_url: '/sign_s3',
+              onProgress: function(percent, message) {
+                  $('#status').html('Upload progress: ' + percent + '% ' + message);
+              },
+              onFinishS3Put: function(public_url) {
+                  $('#status').html('Upload completed. Uploaded to: '+ public_url);
+                  $("#avatar_url").val(public_url);
+                  $("#preview").html('<img src="'+public_url+'" style="width:300px;" />');
+              },
+              onError: function(status) {
+                  $('#status').html('Upload error: ' + status);
+              }
+          });
+      }
+
+      $(document).ready(function() {
+          $('#files').on("change", s3_upload);
+      });
+
+
