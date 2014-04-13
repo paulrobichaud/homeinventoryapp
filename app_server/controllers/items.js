@@ -3,6 +3,7 @@
  */
 var mongoose = require('mongoose')
   , Item  = mongoose.model('Item')
+  , fs = require('fs');
 
 module.exports.listAllItems = function(req, res){
 
@@ -60,16 +61,21 @@ module.exports.displayNewItemForm = function(req, res){
 module.exports.newItemFormSubmit = function(req, res){
   
   console.log(req.body);
+  console.log(req.files);  
 
   var newItem = new Item({
     name: req.body.name,
     location: req.body.location,
     purchase_date: req.body.purchase_date,
     purchase_price: req.body.purchase_price,
-    photo: req.body.photo,
-    receipt: req.body.receipt,
     notes: req.body.notes
   })
+
+  // store item photo
+  newItem.photo.data = fs.readFileSync(req.files.photo.path);
+  newItem.photo.contentType = req.files.photo.type;  
+
+  console.log(newItem);
 
   newItem.save( function(err,item){
     if(!err){
