@@ -16,7 +16,7 @@ block content
     each item in items
       tr
         td
-          a(href='/item') #{item.name}
+          a(href='/item/'+ item._id) #{item.name}
         td #{item.location}
         td 
           img.img-thumbnail(src='#{item.photo}')      
