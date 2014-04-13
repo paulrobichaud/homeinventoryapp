@@ -38,7 +38,4 @@ uploader.on('end', function(url){
   console.log('file available at', url);
 });
 
-}
-
-
 };
