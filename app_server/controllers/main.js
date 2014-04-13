@@ -8,4 +8,8 @@ module.exports.signin = function(req, res){
   res.render('index', { title: 'Signin' });
 };
 
+/* test method for testing stuff */
+module.exports.test = function(req, res){
 
+
+};
