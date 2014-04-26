@@ -1,0 +1,1504 @@
+2014-04-13T00:45:37.212087+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:45:37.211469+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:45:37.211469+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:45:37.212286+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:45:37.212847+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:45:37.212286+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:45:37.212847+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:45:37.212667+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:45:37.212667+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:45:37.312670+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=7f9530b9-7c95-4ee1-ba74-c49ae5d13bd5 fwd="174.3.65.168" dyno=web.1 connect=2ms service=128ms status=200 bytes=3509
+2014-04-13T00:45:37.509586+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.herokuapp.com request_id=7aad3a98-6c18-4d48-8ec3-fe83221fffb5 fwd="174.3.65.168" dyno=web.1 connect=8ms service=16ms status=404 bytes=191
+2014-04-13T00:45:37.213258+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:45:37.313991+00:00 app[web.1]: [90mGET / [32m200 [90m123ms - 3.07kb[0m
+2014-04-13T00:45:37.460695+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [32m200 [90m4ms - 97.63kb[0m
+2014-04-13T00:45:37.483304+00:00 app[web.1]: [90mGET /undefined [33m404 [90m2ms[0m
+2014-04-13T00:45:37.514350+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m2ms[0m
+2014-04-13T00:45:37.524072+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=8ff3c515-d65e-4f74-92e8-3ccdd2dcac80 fwd="174.3.65.168" dyno=web.1 connect=7ms service=9ms status=404 bytes=191
+2014-04-13T00:45:37.584539+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:45:37.585293+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [32m200 [90m3ms - 28.43kb[0m
+2014-04-13T00:45:37.586245+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=fcb9ca6d-23a2-48e2-96e8-d5872a0ce9ad fwd="174.3.65.168" dyno=web.1 connect=1ms service=3ms status=404 bytes=199
+2014-04-13T00:45:37.585164+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=d971e1b0-51cf-4e4d-86bb-23829b432980 fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=200 bytes=29400
+2014-04-13T00:45:37.587396+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:45:38.422627+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=infinite-headland-6037.herokuapp.com request_id=2936e4c9-1a1e-4a23-97a1-9178e4727e74 fwd="174.3.65.168" dyno=web.1 connect=7ms service=10ms status=200 bytes=1634
+2014-04-13T00:45:37.463279+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=e5001419-15c2-4de3-96ee-94257f5c995d fwd="174.3.65.168" dyno=web.1 connect=1ms service=9ms status=200 bytes=100266
+2014-04-13T00:45:37.587484+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=777b1d93-fc54-42ea-ba47-aded293b2b26 fwd="174.3.65.168" dyno=web.1 connect=1ms service=2ms status=404 bytes=198
+2014-04-13T00:45:53.032879+00:00 heroku[router]: at=info method=GET path=/about host=infinite-headland-6037.herokuapp.com request_id=53086615-5b6f-4756-a9b5-561546b328a0 fwd="174.3.65.168" dyno=web.1 connect=1ms service=66ms status=200 bytes=2080
+2014-04-13T00:45:53.169955+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=a0d74037-0bfd-4d8a-be1f-eae484559405 fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=304 bytes=239
+2014-04-13T00:45:53.163387+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=9bd78b7a-03cf-4c04-83fb-6496b629c747 fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-04-13T00:45:53.031123+00:00 app[web.1]: [90mGET /about [32m200 [90m63ms - 1.86kb[0m
+2014-04-13T00:45:53.168150+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m3ms[0m
+2014-04-13T00:45:53.157397+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+2014-04-13T00:45:55.709725+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=978a340b-8a84-4128-9e49-15da04b3cea3 fwd="174.3.65.168" dyno=web.1 connect=3ms service=5ms status=304 bytes=239
+2014-04-13T00:45:55.596895+00:00 heroku[router]: at=info method=GET path=/add/item host=infinite-headland-6037.herokuapp.com request_id=7d455f1c-8e95-48b4-a848-fbaff6d9140d fwd="174.3.65.168" dyno=web.1 connect=1ms service=96ms status=200 bytes=2493
+2014-04-13T00:45:55.717005+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=1441c346-50f6-476c-9c4f-885add6ac463 fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-04-13T00:45:55.707038+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+2014-04-13T00:45:55.709165+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:45:55.583175+00:00 app[web.1]: [90mGET /add/item [32m200 [90m92ms - 2.26kb[0m
+2014-04-13T00:46:22.968605+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:46:22.963720+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.968605+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:46:22.968605+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:46:22.968839+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.969009+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:46:22.968839+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.969009+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:46:22.969551+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:46:22.969551+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:46:22.969009+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.969730+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:46:22.969730+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.970086+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:46:22.970284+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:46:22.970284+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:22.970086+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:46:23.020860+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=3ee75f79-aa7c-4d01-8d50-b80304e72f9e fwd="174.3.65.168" dyno=web.1 connect=5ms service=58ms status=200 bytes=3391
+2014-04-13T00:46:23.132683+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.herokuapp.com request_id=8403e89f-1ce7-4db7-9bb3-eb031475ad7b fwd="174.3.65.168" dyno=web.1 connect=1ms service=4ms status=404 bytes=191
+2014-04-13T00:46:23.127969+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=f650f5b5-0207-4029-b8c3-f3b1e59ff056 fwd="174.3.65.168" dyno=web.1 connect=1ms service=3ms status=404 bytes=191
+2014-04-13T00:46:23.146591+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=156119df-22e0-4274-97b0-975d64840195 fwd="174.3.65.168" dyno=web.1 connect=4ms service=10ms status=404 bytes=199
+2014-04-13T00:46:23.153589+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=3f0fbaa7-dff7-4aa8-8615-b79d92327def fwd="174.3.65.168" dyno=web.1 connect=1ms service=6ms status=304 bytes=239
+2014-04-13T00:46:23.157322+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=c03d9ba3-6122-45c0-996d-e149a3a65510 fwd="174.3.65.168" dyno=web.1 connect=1ms service=10ms status=404 bytes=198
+2014-04-13T00:46:23.123507+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+2014-04-13T00:46:23.144407+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m8ms[0m
+2014-04-13T00:46:23.129147+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m1ms[0m
+2014-04-13T00:46:23.145302+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m2ms[0m
+2014-04-13T00:46:22.970614+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:46:23.016879+00:00 app[web.1]: [90mGET / [32m200 [90m53ms - 3.07kb[0m
+2014-04-13T00:46:23.130118+00:00 app[web.1]: [90mGET /undefined [33m404 [90m1ms[0m
+2014-04-13T00:46:23.147438+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:46:23.124587+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=ea530fec-53f5-4c9a-9030-81016b83a068 fwd="174.3.65.168" dyno=web.1 connect=1ms service=5ms status=304 bytes=239
+2014-04-13T00:46:26.667693+00:00 app[web.1]: Finding item _id: 53488f81fdca2815404e3617
+2014-04-13T00:46:26.671429+00:00 app[web.1]:   notes: 'somenote blablabla',
+2014-04-13T00:46:26.671429+00:00 app[web.1]: { name: 'someitem',
+2014-04-13T00:46:26.671429+00:00 app[web.1]:   purchase_price: 5000,
+2014-04-13T00:46:26.671429+00:00 app[web.1]:   location: 'myhome',
+2014-04-13T00:46:26.671429+00:00 app[web.1]:   purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:26.671429+00:00 app[web.1]:   _id: 53488f81fdca2815404e3617,
+2014-04-13T00:46:26.671429+00:00 app[web.1]:   __v: 0 }
+2014-04-13T00:46:26.793286+00:00 heroku[router]: at=info method=GET path=/item/53488f81fdca2815404e3617 host=infinite-headland-6037.herokuapp.com request_id=d7a8311c-5e66-4169-a047-b8170997d90f fwd="174.3.65.168" dyno=web.1 connect=1ms service=126ms status=200 bytes=2308
+2014-04-13T00:46:26.790816+00:00 app[web.1]: [90mGET /item/53488f81fdca2815404e3617 [32m200 [90m123ms - 2.08kb[0m
+2014-04-13T00:46:26.891651+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+2014-04-13T00:46:26.895548+00:00 app[web.1]:   name: 'CastError',
+2014-04-13T00:46:26.895548+00:00 app[web.1]:   type: 'ObjectId',
+2014-04-13T00:46:26.895548+00:00 app[web.1]:   value: 'undefined',
+2014-04-13T00:46:26.894878+00:00 app[web.1]: Finding item _id: undefined
+2014-04-13T00:46:26.895548+00:00 app[web.1]: { message: 'Cast to ObjectId failed for value "undefined" at path "_id"',
+2014-04-13T00:46:26.895548+00:00 app[web.1]:   path: '_id' }
+2014-04-13T00:46:26.902913+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=94ec0fed-b60b-4e0a-aa03-2534460d2dce fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=304 bytes=239
+2014-04-13T00:46:26.900089+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:46:26.896392+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=e089e7e2-a216-4a4d-91dd-6d3db5ee7822 fwd="174.3.65.168" dyno=web.1 connect=1ms service=5ms status=304 bytes=239
+2014-04-13T00:46:40.002508+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.006006+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:46:40.006349+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.006588+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:46:40.006006+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.006349+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:46:40.006588+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:46:40.006006+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.007610+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:46:40.007325+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:46:40.006588+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:46:40.007325+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:46:40.007610+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:46:40.008184+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:46:40.008407+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:46:40.008184+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:46:40.008407+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:46:40.062451+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=fc0b8837-20aa-4a79-916c-a8e41c1a20d7 fwd="174.3.65.168" dyno=web.1 connect=3ms service=64ms status=200 bytes=3391
+2014-04-13T00:46:40.325976+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.herokuapp.com request_id=768d83d5-cac7-41c2-9bdf-818f01345cf4 fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=404 bytes=191
+2014-04-13T00:46:40.323297+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=f8690db6-8053-4ce3-8215-64b542ae6439 fwd="174.3.65.168" dyno=web.1 connect=1ms service=5ms status=304 bytes=239
+2014-04-13T00:46:40.064195+00:00 app[web.1]: [90mGET / [32m200 [90m63ms - 3.07kb[0m
+2014-04-13T00:46:40.008985+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:46:40.313616+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m2ms[0m
+2014-04-13T00:46:40.320122+00:00 app[web.1]: [90mGET /undefined [33m404 [90m1ms[0m
+2014-04-13T00:46:40.332795+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=e5ebd229-9dda-4c22-8599-ac9c6ea2f5e3 fwd="174.3.65.168" dyno=web.1 connect=1ms service=11ms status=404 bytes=198
+2014-04-13T00:46:40.329368+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=1d75d56a-fce0-4cc4-8cdb-8f1cafb7b9fc fwd="174.3.65.168" dyno=web.1 connect=1ms service=11ms status=404 bytes=199
+2014-04-13T00:46:40.330151+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m7ms[0m
+2014-04-13T00:46:40.330438+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m4ms[0m
+2014-04-13T00:46:40.386838+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m8ms[0m
+2014-04-13T00:46:40.413122+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=3c8b1cd9-6df8-4159-a07a-fc1bcef7db36 fwd="174.3.65.168" dyno=web.1 connect=1ms service=7ms status=304 bytes=239
+2014-04-13T00:46:40.412617+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:46:44.251817+00:00 app[web.1]: Finding item _id: 534989f0b2b400b25fe32f87
+2014-04-13T00:46:44.253737+00:00 app[web.1]: { name: 'Bugatti Veyron',
+2014-04-13T00:46:44.253737+00:00 app[web.1]:   location: 'Garage',
+2014-04-13T00:46:44.253737+00:00 app[web.1]:   purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:46:44.253737+00:00 app[web.1]:   purchase_price: 1000000,
+2014-04-13T00:46:44.253737+00:00 app[web.1]:   __v: 0 }
+2014-04-13T00:46:44.253737+00:00 app[web.1]:   notes: 'vroom vroom',
+2014-04-13T00:46:44.253737+00:00 app[web.1]:   _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:46:44.313564+00:00 heroku[router]: at=info method=GET path=/item/534989f0b2b400b25fe32f87 host=infinite-headland-6037.herokuapp.com request_id=97501e38-9a86-4faf-af8d-89bf24162bce fwd="174.3.65.168" dyno=web.1 connect=1ms service=64ms status=200 bytes=2309
+2014-04-13T00:46:44.451688+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=067206de-7a8d-49e9-a18e-8325ab70b515 fwd="174.3.65.168" dyno=web.1 connect=1ms service=3ms status=304 bytes=239
+2014-04-13T00:46:44.440719+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m1ms[0m
+2014-04-13T00:46:44.442638+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:46:44.313529+00:00 app[web.1]: [90mGET /item/534989f0b2b400b25fe32f87 [32m200 [90m62ms - 2.08kb[0m
+2014-04-13T00:46:44.443966+00:00 app[web.1]: Finding item _id: undefined
+2014-04-13T00:46:44.444392+00:00 app[web.1]:   name: 'CastError',
+2014-04-13T00:46:44.444392+00:00 app[web.1]: { message: 'Cast to ObjectId failed for value "undefined" at path "_id"',
+2014-04-13T00:46:44.444392+00:00 app[web.1]:   type: 'ObjectId',
+2014-04-13T00:46:44.587362+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:46:44.444392+00:00 app[web.1]:   path: '_id' }
+2014-04-13T00:46:44.444392+00:00 app[web.1]:   value: 'undefined',
+2014-04-13T00:46:44.593007+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=e3757908-772a-424c-94ff-1ee87ec4a2cd fwd="174.3.65.168" dyno=web.1 connect=1ms service=8ms status=304 bytes=239
+2014-04-13T00:46:40.394641+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=78d175a3-5ae9-4866-8aab-b0c2f884a536 fwd="174.3.65.168" dyno=web.1 connect=5ms service=19ms status=404 bytes=191
+2014-04-13T00:46:51.514673+00:00 app[web.1]: [90mGET /about [36m304 [90m53ms[0m
+2014-04-13T00:46:51.522536+00:00 heroku[router]: at=info method=GET path=/about host=infinite-headland-6037.herokuapp.com request_id=7fe8985d-e3f1-4d12-9183-81379fc0dcf1 fwd="174.3.65.168" dyno=web.1 connect=1ms service=58ms status=304 bytes=128
+2014-04-13T00:46:51.618568+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=7b856643-c4c9-4428-ae3c-f2d675aafabc fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-04-13T00:46:51.616670+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=2cc3ed76-d063-45d1-b7dd-22c8da27f9ba fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-04-13T00:46:51.614850+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:46:51.616599+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m1ms[0m
+2014-04-13T00:46:56.629570+00:00 app[web.1]: [90mGET /add/item [36m304 [90m194ms[0m
+2014-04-13T00:46:56.746851+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+2014-04-13T00:46:56.761244+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=da5101eb-dee6-4932-aad7-bde96b144226 fwd="174.3.65.168" dyno=web.1 connect=2ms service=9ms status=304 bytes=239
+2014-04-13T00:46:56.760490+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=457ceeda-9811-450d-b026-2f2e3dfd8d63 fwd="174.3.65.168" dyno=web.1 connect=2ms service=14ms status=304 bytes=239
+2014-04-13T00:46:56.756335+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m8ms[0m
+2014-04-13T00:46:56.901552+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path=/item/undefined host=infinite-headland-6037.herokuapp.com request_id=7879f5ee-ac5e-4c54-8082-5c3c3259d7ac fwd="174.3.65.168" dyno=web.1 connect=2ms service=30001ms status=503 bytes=0
+2014-04-13T00:46:56.900750+00:00 app[web.1]: [90mGET /item/undefined [32m200 [90m30006ms[0m
+2014-04-13T00:46:44.450577+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=b37de14b-8a3e-4cf6-a3c4-9edb3aeb60d9 fwd="174.3.65.168" dyno=web.1 connect=1ms service=4ms status=304 bytes=239
+2014-04-13T00:46:56.629772+00:00 heroku[router]: at=info method=GET path=/add/item host=infinite-headland-6037.herokuapp.com request_id=fdb7dd14-0bf7-4bf6-8a8e-74310bcaee2f fwd="174.3.65.168" dyno=web.1 connect=2ms service=201ms status=304 bytes=128
+2014-04-13T00:47:01.334767+00:00 app[web.1]: { name: 'Marynika',
+2014-04-13T00:47:01.334767+00:00 app[web.1]:   purchase_date: '',
+2014-04-13T00:47:01.334767+00:00 app[web.1]:   location: '',
+2014-04-13T00:47:01.334767+00:00 app[web.1]:   purchase_price: '',
+2014-04-13T00:47:01.334767+00:00 app[web.1]:   notes: '',
+2014-04-13T00:47:01.334767+00:00 app[web.1]:   Submit: 'Submit' }
+2014-04-13T00:47:01.380765+00:00 heroku[router]: at=info method=POST path=/add/item host=infinite-headland-6037.herokuapp.com request_id=6b015286-3ab0-40de-bb32-170b8d4bd2ef fwd="174.3.65.168" dyno=web.1 connect=1ms service=47ms status=302 bytes=258
+2014-04-13T00:47:01.375517+00:00 app[web.1]: _id of user: 5349de85fdefdf0200e7aac6
+2014-04-13T00:47:01.477452+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:47:01.375384+00:00 app[web.1]: Item: Marynika saved!
+2014-04-13T00:47:01.374714+00:00 app[web.1]: [90mPOST /add/item [36m302 [90m44ms - 58b[0m
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:47:01.483170+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.483170+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.483170+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:47:01.483384+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:47:01.483384+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.483557+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.483557+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:47:01.483557+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:47:01.484184+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:47:01.484184+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.484390+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:47:01.484390+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.484933+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:47:01.484725+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.484725+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:47:01.484933+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:47:01.546267+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=f6ec88ea-2af7-4599-a371-dfdb40ec9283 fwd="174.3.65.168" dyno=web.1 connect=2ms service=63ms status=200 bytes=3522
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:01.485308+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     location: '',
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     notes: '',
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:47:01.485308+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:47:01.537385+00:00 app[web.1]: [90mGET / [32m200 [90m61ms - 3.2kb[0m
+2014-04-13T00:47:01.663991+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=7a487110-9878-4411-96f4-1e61aded05fd fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-04-13T00:47:01.672045+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=9633bfeb-78a0-4dbb-9416-b69270c891ef f
+wd="174.3.65.168" dyno=web.1 connect=2ms service=3ms status=404 bytes=191
+2014-04-13T00:47:01.657882+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:47:01.670342+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m1ms[0m
+2014-04-13T00:47:01.673752+00:00 app[web.1]: [90mGET /undefined [33m404 [90m1ms[0m
+2014-04-13T00:47:01.673992+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m0ms[0m
+2014-04-13T00:47:01.681288+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:47:01.680590+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.herokuapp.com request_id=84303c1d-3f24-4dcc-9903-5ccea01d369d fwd="174.3.65.168" dyno=web.1 connect=2ms service=7ms status=404 bytes=191
+2014-04-13T00:47:01.688509+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=ecbf52fc-a7bf-4bfe-8967-da9eb3d80fc4 fwd="174.3.65.168" dyno=web.1 connect=1ms service=5ms status=404 bytes=198
+2014-04-13T00:47:01.674364+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=76be6ace-179e-41eb-b3ae-7cb127bf1e23 fwd="174.3.65.168" dyno=web.1 connect=1ms service=3ms status=404 bytes=199
+2014-04-13T00:47:01.756517+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=e60f968b-2947-49ae-9c31-469e84481b5b fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-04-13T00:47:01.752008+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m1ms[0m
+2014-04-13T00:47:02.224825+00:00 heroku[router]: at=info method=GET path=/add/item host=infinite-headland-6037.herokuapp.com request_id=cae8939b-54ff-4505-ad9f-98b54f28e670 fwd="174.3.65.168" dyno=web.1 connect=3ms service=120ms status=200 bytes=2493
+2014-04-13T00:47:02.209915+00:00 app[web.1]: [90mGET /add/item [32m200 [90m118ms - 2.26kb[0m
+2014-04-13T00:47:14.444822+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path=/item/undefined host=infinite-headland-6037.herokuapp.com request_id=429bf545-119b-4a68-92ba-b98c27746515 fwd="174.3.65.168" dyno=web.1 connect=6ms service=30001ms status=503 bytes=0
+2014-04-13T00:47:14.444713+00:00 app[web.1]: [90mGET /item/undefined [32m200 [90m30001ms[0m
+2014-04-13T00:47:54.064709+00:00 app[web.1]:   Submit: 'Submit' }
+2014-04-13T00:47:54.064709+00:00 app[web.1]: { name: 'Marynika\'s iPhone',
+2014-04-13T00:47:54.064709+00:00 app[web.1]:   location: 'In her hand',
+2014-04-13T00:47:54.064709+00:00 app[web.1]:   purchase_date: '2013-08-09',
+2014-04-13T00:47:54.064709+00:00 app[web.1]:   purchase_price: '380',
+2014-04-13T00:47:54.064709+00:00 app[web.1]:   notes: 'white iPhone 4s',
+2014-04-13T00:47:54.073079+00:00 app[web.1]: [90mPOST /add/item [36m302 [90m10ms - 58b[0m
+2014-04-13T00:47:54.073823+00:00 app[web.1]: Item: Marynika's iPhone saved!
+2014-04-13T00:47:54.073121+00:00 heroku[router]: at=info method=POST path=/add/item host=infinite-headland-6037.herokuapp.com request_id=0f3d56ac-6152-447e-8602-ba3ced5bffbe fwd="174.3.65.168" dyno=web.1 connect=1ms service=16ms status=302 bytes=258
+2014-04-13T00:47:54.074042+00:00 app[web.1]: _id of user: 5349debafdefdf0200e7aac7
+2014-04-13T00:47:54.245840+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.240667+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.245840+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:47:54.246070+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:47:54.245840+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.246070+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:47:54.246806+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.246283+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:47:54.246283+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.246283+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:47:54.246806+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:47:54.246989+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.247361+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:47:54.246989+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:47:54.247361+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:47:54.247581+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:47:54.247958+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     location: '',
+2014-04-13T00:47:54.247581+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     notes: '',
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:47:54.248143+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:47:54.248143+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:47:54.248143+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:47:54.248143+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T00:47:54.248143+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T00:47:54.247958+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T00:47:54.247958+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T00:47:54.332544+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=e5f375fe-1b47-4585-9064-53d6b19670e7 fwd="174.3.65.168" dyno=web.1 connect=6ms service=93ms status=200 bytes=3674
+2014-04-13T00:47:54.429521+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:47:54.431302+00:00 app[web.1]: [90mGET /undefined [33m404 [90m1ms[0m
+2014-04-13T00:47:54.437390+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m2ms[0m
+2014-04-13T00:47:54.326381+00:00 app[web.1]: [90mGET / [32m200 [90m87ms - 3.35kb[0m
+2014-04-13T00:47:54.437686+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:47:54.443531+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=bbd88911-9f08-4212-b302-fd1af1620696 fwd="174.3.65.168" dyno=web.1 connect=3ms service=4ms status=404 bytes=199
+2014-04-13T00:47:54.456869+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=619ec414-213a-47d7-8e38-a58b550fc043 fwd="174.3.65.168" dyno=web.1 connect=4ms service=5ms status=404 bytes=191
+2014-04-13T00:47:54.428195+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=373a1548-c40c-4535-b0dd-1e2826664d86 fwd="174.3.65.168" dyno=web.1 connect=1ms service=4ms status=304 bytes=239
+2014-04-13T00:47:54.436145+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.herokuapp.com request_id=898b82f7-4c1c-44dc-bb43-b4450a09ce0d fwd="174.3.65.168" dyno=web.1 connect=1ms service=3ms status=404 bytes=191
+2014-04-13T00:47:54.438826+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=193298c1-ce7e-4e50-9197-c83ba1329f98 fwd="174.3.65.168" dyno=web.1 connect=1ms service=6ms status=404 bytes=198
+2014-04-13T00:47:54.523712+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=0935654d-e763-4b86-bd4e-5f6dfa37475d fwd="174.3.65.168" dyno=web.1 connect=1ms service=5ms status=304 bytes=239
+2014-04-13T00:47:54.446789+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m1ms[0m
+2014-04-13T00:47:54.524882+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m4ms[0m
+2014-04-13T00:48:01.279286+00:00 app[web.1]: { name: 'Marynika\'s iPhone',
+2014-04-13T00:48:01.279286+00:00 app[web.1]:   location: 'In her hand',
+2014-04-13T00:48:01.271462+00:00 app[web.1]: Finding item _id: 5349debafdefdf0200e7aac7
+2014-04-13T00:48:01.279286+00:00 app[web.1]:   purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:48:01.279286+00:00 app[web.1]:   purchase_price: 380,
+2014-04-13T00:48:01.279286+00:00 app[web.1]:   notes: 'white iPhone 4s',
+2014-04-13T00:48:01.279286+00:00 app[web.1]:   _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:48:01.279286+00:00 app[web.1]:   __v: 0 }
+2014-04-13T00:48:01.420233+00:00 heroku[router]: at=info method=GET path=/item/5349debafdefdf0200e7aac7 host=infinite-headland-6037.herokuapp.com request_id=ceecfb68-699a-4354-86c8-d6fbc075656d fwd="174.3.65.168" dyno=web.1 connect=1ms service=152ms status=200 bytes=2318
+2014-04-13T00:48:01.419545+00:00 app[web.1]: [90mGET /item/5349debafdefdf0200e7aac7 [32m200 [90m149ms - 2.09kb[0m
+2014-04-13T00:48:01.538249+00:00 app[web.1]:   name: 'CastError',
+2014-04-13T00:48:01.538249+00:00 app[web.1]:   type: 'ObjectId',
+2014-04-13T00:48:01.537584+00:00 app[web.1]: Finding item _id: undefined
+2014-04-13T00:48:01.538249+00:00 app[web.1]:   path: '_id' }
+2014-04-13T00:48:01.538249+00:00 app[web.1]: { message: 'Cast to ObjectId failed for value "undefined" at path "_id"',
+2014-04-13T00:48:01.538249+00:00 app[web.1]:   value: 'undefined',
+2014-04-13T00:48:01.548559+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=4b706ff9-99f7-449a-ab1e-e92a9410b4b1 fwd="174.3.65.168" dyno=web.1 connect=5ms service=9ms status=304 bytes=239
+2014-04-13T00:48:01.542682+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=17bd17ef-5b72-47aa-bcec-3afbeb291a91 fwd="174.3.65.168" dyno=web.1 connect=1ms service=9ms status=304 bytes=239
+2014-04-13T00:48:01.541471+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m7ms[0m
+2014-04-13T00:48:01.542058+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+2014-04-13T00:48:01.701818+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=92e31fb6-027a-4fea-b3d0-e75cda2fec58 fwd="174.3.65.168" dyno=web.1 connect=2ms service=9ms status=304 bytes=239
+2014-04-13T00:48:01.690231+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:48:31.537587+00:00 app[web.1]: [90mGET /item/undefined [32m200 [90m30001ms[0m
+2014-04-13T00:48:31.532516+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path=/item/undefined host=infinite-headland-6037.herokuapp.com request_id=a8c8c2ae-b1f7-4a1a-ae03-d5bd5ea19264 fwd="174.3.65.168" dyno=web.1 connect=1ms service=30001ms status=503 bytes=0
+2014-04-13T00:49:36.288149+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:49:36.294381+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.294381+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:49:36.294381+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     purch
+ase_price: 5000,
+2014-04-13T00:49:36.294593+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:49:36.294593+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:49:36.294769+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.294769+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:49:36.294769+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.295278+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:49:36.295278+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.295455+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:49:36.295455+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.295900+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:49:36.295900+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.296133+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:49:36.296133+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.296505+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     location: '',
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     notes: '',
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:36.296505+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T00:49:36.296505+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T00:49:36.296695+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T00:49:36.296695+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:36.296695+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T00:49:36.296695+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:49:36.296695+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:49:36.356208+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=79104a4e-c55b-4dc8-94fe-1c58dcc44abd fwd="174.3.65.168" dyno=web.1 connect=2ms service=69ms status=200 bytes=3674
+2014-04-13T00:49:36.491441+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=1b8e5562-eae0-42d3-adaa-c9b702536ce4 fwd="174.3.65.168" dyno=web.1 connect=2ms service=5ms status=304 bytes=239
+2014-04-13T00:49:36.574779+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=7fb0db1a-24b7-40b1-a953-68e484a7b9f5 fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=304 bytes=239
+2014-04-13T00:49:36.574157+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.herokuapp.com request_id=0ab169fe-c2f9-4ce3-b15b-5b2bda75226e fwd="174.3.65.168" dyno=web.1 connect=2ms service=5ms status=404 bytes=191
+2014-04-13T00:49:36.581787+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=228b87b7-146a-414b-9552-e290dc2213b0 fwd="174.3.65.168" dyno=web.1 connect=2ms service=4ms status=404 bytes=199
+2014-04-13T00:49:36.589860+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=c2ed0764-9c56-47a8-b907-fc4e4e5049f0 fwd="174.3.65.168" dyno=web.1 connect=3ms service=7ms status=404 bytes=198
+2014-04-13T00:49:36.579510+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=38233779-eea4-4df8-b2f0-26af81ddeeec fwd="174.3.65.168" dyno=web.1 connect=3ms service=5ms status=404 bytes=191
+2014-04-13T00:49:36.352915+00:00 app[web.1]: [90mGET / [32m200 [90m65ms - 3.35kb[0m
+2014-04-13T00:49:36.582161+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:49:36.581506+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:49:36.480508+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:49:36.572395+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m1ms[0m
+2014-04-13T00:49:36.574691+00:00 app[web.1]: [90mGET /undefined [33m404 [90m1ms[0m
+2014-04-13T00:49:36.576322+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m1ms[0m
+2014-04-13T00:49:37.632231+00:00 app[web.1]: [90mGET /add/item [32m200 [90m70ms - 2.26kb[0m
+2014-04-13T00:49:37.635600+00:00 heroku[router]: at=info method=GET path=/add/item host=infinite-headland-6037.herokuapp.com request_id=b81b3c7c-c405-4fda-9145-0292b9b5ff45 fwd="174.3.65.168" dyno=web.1 connect=2ms service=73ms status=200 bytes=2493
+2014-04-13T00:49:37.750369+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=e3ad34e8-14e3-40b3-bab7-b60b52083ea7 fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=304 bytes=239
+2014-04-13T00:49:37.756032+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=37054ae5-7549-4b74-be1c-9254e4d2a439 fwd="174.3.65.168" dyno=web.1 connect=3ms service=7ms status=304 bytes=239
+2014-04-13T00:49:37.743856+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:49:37.750476+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m1ms[0m
+2014-04-13T00:49:40.582884+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:49:40.589177+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:49:40.589177+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.589177+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.589376+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:49:40.589376+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.589557+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.589557+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:49:40.589557+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.590357+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:49:40.590357+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.590523+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:49:40.590523+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.590969+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:49:40.590969+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.591156+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:49:40.591156+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.591587+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     location: '',
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     notes: '',
+2014-04-13T00:49:40.591789+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:40.591789+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T00:49:40.591789+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T00:49:40.591789+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:49:40.591789+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:49:40.591587+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T00:49:40.591587+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T00:49:40.651563+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=52a23eba-4d5f-44e6-91bf-1242f101b686 fwd="174.3.65.168" dyno=web.1 connect=4ms service=72ms status=200 bytes=3674
+2014-04-13T00:49:40.786214+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=2bdac8a4-771e-4ba4-81a4-85e47bb34d2a fwd="174.3.65.168" dyno=web.1 connect=2ms service=5ms status=304 bytes=239
+2014-04-13T00:49:40.800250+00:00 heroku[router]: at=info method=GET path=/photo.JPG host=infinite-headland-6037.herokuapp.com request_id=a12cbf58-c311-47cd-95a5-65d1a37b0916 fwd="174.3.65.168" dyno=web.1 connect=3ms service=8ms status=404 bytes=191
+2014-04-13T00:49:40.799320+00:00 heroku[router]: at=info method=GET path=/linkedinpic.jpeg host=infinite-headland-6037.herokuapp.com request_id=31db5553-62e9-4f82-bade-3b6c839657e5 fwd="174.3.65.168" dyno=web.1 connect=4ms service=5ms status=404 bytes=198
+2014-04-13T00:49:40.799258+00:00 heroku[router]: at=info method=GET path=/undefined host=infinite-headland-6037.
+herokuapp.com request_id=c69cb2ad-e69f-49e6-9a02-663bf1f86594 fwd="174.3.65.168" dyno=web.1 connect=2ms service=9ms status=404 bytes=191
+2014-04-13T00:49:40.816000+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=caecfefb-0427-428b-b07f-8e20bf21572e fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=304 bytes=239
+2014-04-13T00:49:40.803747+00:00 heroku[router]: at=info method=GET path=/youhadonejob.jpeg host=infinite-headland-6037.herokuapp.com request_id=2c671793-ff73-48eb-ab70-58e9f6271e3c fwd="174.3.65.168" dyno=web.1 connect=2ms service=9ms status=404 bytes=199
+2014-04-13T00:49:40.797755+00:00 app[web.1]: [90mGET /undefined [33m404 [90m3ms[0m
+2014-04-13T00:49:40.649523+00:00 app[web.1]: [90mGET / [32m200 [90m68ms - 3.35kb[0m
+2014-04-13T00:49:40.799656+00:00 app[web.1]: [90mGET /linkedinpic.jpeg [33m404 [90m1ms[0m
+2014-04-13T00:49:40.801509+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:49:40.782061+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:49:40.797247+00:00 app[web.1]: [90mGET /photo.JPG [33m404 [90m4ms[0m
+2014-04-13T00:49:40.799126+00:00 app[web.1]: [90mGET /youhadonejob.jpeg [33m404 [90m4ms[0m
+2014-04-13T00:49:56.766781+00:00 app[web.1]: Finding item _id: 53488020b11bdc6f2fc332fc
+2014-04-13T00:49:56.769535+00:00 app[web.1]:   location: 'bedroom',
+2014-04-13T00:49:56.769535+00:00 app[web.1]: { name: 'newitem!!!',
+2014-04-13T00:49:56.769535+00:00 app[web.1]:   purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:49:56.769535+00:00 app[web.1]:   __v: 0 }
+2014-04-13T00:49:56.769535+00:00 app[web.1]:   _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:49:56.769535+00:00 app[web.1]:   purchase_price: 200,
+2014-04-13T00:49:56.769535+00:00 app[web.1]:   notes: 'askdalskdalsd',
+2014-04-13T00:49:56.868122+00:00 heroku[router]: at=info method=GET path=/item/53488020b11bdc6f2fc332fc host=infinite-headland-6037.herokuapp.com request_id=20d1ef8a-7fa9-437b-a682-79e9658a6730 fwd="174.3.65.168" dyno=web.1 connect=4ms service=107ms status=200 bytes=2305
+2014-04-13T00:49:56.977949+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T00:49:56.981219+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m2ms[0m
+2014-04-13T00:49:56.981999+00:00 app[web.1]:   name: 'CastError',
+2014-04-13T00:49:56.869812+00:00 app[web.1]: [90mGET /item/53488020b11bdc6f2fc332fc [32m200 [90m103ms - 2.08kb[0m
+2014-04-13T00:49:56.981999+00:00 app[web.1]: { message: 'Cast to ObjectId failed for value "undefined" at path "_id"',
+2014-04-13T00:49:56.981999+00:00 app[web.1]:   type: 'ObjectId',
+2014-04-13T00:49:56.981999+00:00 app[web.1]:   path: '_id' }
+2014-04-13T00:49:56.981999+00:00 app[web.1]:   value: 'undefined',
+2014-04-13T00:49:56.981656+00:00 app[web.1]: Finding item _id: undefined
+2014-04-13T00:49:56.989911+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=854b54a2-ee0e-453b-b443-0b62990503cb fwd="174.3.65.168" dyno=web.1 connect=2ms service=6ms status=304 bytes=239
+2014-04-13T00:49:56.999059+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=6454b211-70d9-4e90-a60f-55c46634b898 fwd="174.3.65.168" dyno=web.1 connect=2ms service=5ms status=304 bytes=239
+2014-04-13T00:50:02.610708+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:50:02.615717+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.615717+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:50:02.616075+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.615903+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:50:02.615903+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:50:02.615717+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.616075+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:50:02.616075+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.616741+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:50:02.616574+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:50:02.616574+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:50:02.616741+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.617268+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:50:02.617085+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:50:02.617085+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:50:02.617268+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.617710+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     location: '',
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     notes: '',
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:02.617710+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T00:50:02.617710+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T00:50:02.617875+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:02.617875+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T00:50:02.617875+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T00:50:02.617875+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:50:02.617875+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:50:02.669109+00:00 app[web.1]: [90mGET / [32m200 [90m58ms - 3.35kb[0m
+2014-04-13T00:50:02.669048+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=4210b09b-914c-4c71-a585-b49b399639d5 fwd="174.3.65.168" dyno=web.1 connect=3ms service=63ms status=200 bytes=3674
+2014-04-13T00:50:04.891824+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:50:04.895139+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.895139+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.895327+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:50:04.895139+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.895505+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.895327+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.895505+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.895505+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.896041+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:50:04.896041+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.896259+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:50:04.896259+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:50:04.896634+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:50:04.896634+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.897186+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     location: '',
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:50:04.896813+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:50:04.896813+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     notes: '',
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:04.897186+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T00:50:04.897378+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:04.897186+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T00:50:04.897378+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T00:50:04.897378+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T00:50:04.897378+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:50:04.897378+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:50:04.948206+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=8fee907e-4187-4c73-829d-8a392a70cfa9 fwd="174.3.65.168" dyno=web.1 connect=2ms service=59ms status=200 bytes=3674
+2014-04-13T00:50:04.947917+00:00 app[web.1]: [90mGET / [32m200 [90m55ms - 3.35kb[0m
+2014-04-13T00:50:08.946683+00:00 app[web.1]: Getting all items ...
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     location: 'bedroom',
+2014-04-13T00:50:08.953391+00:00 app[web.1]: [ { name: 'newitem!!!',
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     purchase_price: 200,
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     _id: 53488020b11bdc6f2fc332fc,
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.953391+00:00 app[web.1]:   { name: 'blaitem',
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     notes: 'askdalskdalsd',
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.953391+00:00 app[web.1]:     location: 'garage',
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     purchase_price: 2000,
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     _id: 5348808bb11bdc6f2fc332fd,
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     notes: 'blaitem notes',
+2014-04-13T00:50:08.953599+00:00 app[web.1]:   { name: 'someitem',
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     location: 'myhome',
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     purchase_date: Fri Apr 25 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     notes: 'somenote blablabla',
+2014-04-13T00:50:08.953599+00:00 app[web.1]:     _id: 53488f81fdca2815404e3617,
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     location: 'bathroom',
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     purchase_date: Sun Apr 13 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     purchase_price: 1400,
+2014-04-13T00:50:08.953774+00:00 app[web.1]:   { name: 'testitem',
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     _id: 53495c432a6ea99e480ee665,
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T00:50:08.953774+00:00 app[web.1]:     notes: 'notes 4 testitem',
+2014-04-13T00:50:08.953774+00:00 app[web.1]:   { name: 'Bugatti Veyron',
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T00:50:08.954245+00:00 app[web.1]:   { name: 'One Dollar in Cash',
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     location: 'Pocket',
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     purchase_date: Sun Apr 20 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T00:50:08.954245+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     notes: '1$ i\'m rich',
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     _id: 53498b421a1a195e6104ac50,
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     receipt: 'receipt.JPG',
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     notes: 'iphone 5s',
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     _id: 53498c11a8e832fb614ce43b,
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.954751+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T00:50:08.954416+00:00 app[web.1]:   { name: 'iPhone',
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     photo: 'youhadonejob.jpeg',
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     location: 'Office',
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     purchase_date: Fri May 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     purchase_price: 500,
+2014-04-13T00:50:08.954751+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T00:50:08.954416+00:00 app[web.1]:     photo: 'photo.JPG',
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.954920+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     photo: 'linkedinpic.jpeg',
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T00:50:08.954920+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.955277+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     location: '',
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     notes: '',
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     __v: 0 },
+2014-04-13T00:50:08.955277+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T00:50:08.955277+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T00:50:08.955450+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T00:50:08.955450+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T00:50:08.955450+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T00:50:08.955450+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T00:50:08.955450+00:00 app[web.1]:     __v: 0 } ]
+2014-04-13T00:50:09.014529+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=d56e0dcf-7603-4566-af0f-02346af0b2db fwd="174.3.65.168" dyno=web.1 connect=4ms service=68ms status=200 bytes=3674
+2014-04-13T00:50:09.010184+00:00 app[web.1]: [90mGET / [32m200 [90m64ms - 3.35kb[0m
+2014-04-13T00:50:26.984062+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path=/item/undefined host=infinite-headland-6037.herokuapp.com request_id=e68d5c65-4899-4178-ac79-9832fffd1284 fwd="174.3.65.168" dyno=web.1 connect=2ms service=30000ms status=503 bytes=0
+2014-04-13T00:50:26.982133+00:00 app[web.1]: [90mGET /item/undefined [32m200 [90m30000ms[0m
+2014-04-13T01:52:29.903842+00:00 heroku[web.1]: Idling
+2014-04-13T01:52:29.904281+00:00 heroku[web.1]: State changed from up to down
+2014-04-13T01:52:32.503333+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-04-13T01:52:33.049128+00:00 app[web.1]: Mongoose disconnected through Heroku app shutdown
+2014-04-13T01:52:34.416339+00:00 heroku[web.1]: Process exited with status 0
+2014-04-13T16:45:00.182020+00:00 heroku[web.1]: State changed from down to starting
+2014-04-13T16:45:00.048818+00:00 heroku[api]: Release v14 created by ptoma98@gmail.com
+2014-04-13T16:45:00.048818+00:00 heroku[api]: Set AWS_ACCESS_KEY_ID config vars by ptoma98@gmail.com
+2014-04-13T16:45:03.536629+00:00 heroku[web.1]: Starting process with command `node app.js`
+2014-04-13T16:45:05.480510+00:00 heroku[web.1]: State changed from starting to up
+2014-04-13T16:45:05.566763+00:00 app[web.1]: Mongoose connected to mongodb://stowappuser:stowpass@oceanic.mongohq.com:10023/app23303171
+2014-04-13T16:45:05.412772+00:00 app[web.1]: Express server listening on port 12415
+2014-04-13T16:45:36.874903+00:00 heroku[web.1]: State changed from up to starting
+2014-04-13T16:45:36.423148+00:00 heroku[api]: Set AWS_SECRET_ACCESS_KEY config vars by ptoma98@gmail.com
+2014-04-13T16:45:36.423244+00:00 heroku[api]: Release v15 created by ptoma98@gmail.com
+2014-04-13T16:45:39.999335+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-04-13T16:45:40.739466+00:00 app[web.1]: Mongoose disconnected through Heroku app shutdown
+2014-04-13T16:45:42.225418+00:00 heroku[web.1]: Process exited with status 0
+2014-04-13T16:45:44.686432+00:00 heroku[web.1]: Starting process with command `node app.js`
+2014-04-13T16:45:46.379186+00:00 app[web.1]: Express server listening on port 45214
+2014-04-13T16:45:46.379186+00:00 app[web.1]: Mongoose connected to mongodb://stowappuser:stowpass@oceanic.mongohq.com:10023/app23303171
+2014-04-13T16:45:46.820111+00:00 heroku[web.1]: State changed from starting to up
+2014-04-13T16:46:31.366391+00:00 heroku[web.1]: State changed from up to starting
+2014-04-13T16:46:30.987332+00:00 heroku[api]: Release v16 created by ptoma98@gmail.com
+2014-04-13T16:46:30.987247+00:00 heroku[api]: Set S3_BUCKET config vars by ptoma98@gmail.com
+2014-04-13T16:46:33.676546+00:00 heroku[web.1]: Starting process with command `node app.js`
+2014-04-13T16:46:34.573758+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-04-13T16:46:34.853096+00:00 app[web.1]: Express server listening on port 15663
+2014-04-13T16:46:34.935574+00:00 app[web.1]: Mongoose connected to mongodb://stowappuser:stowpass@oceanic.mongohq.com:10023/app23303171
+2014-04-13T16:46:35.260081+00:00 app[web.1]: Mongoose disconnected through Heroku app shutdown
+2014-04-13T16:46:35.362179+00:00 heroku[web.1]: State changed from starting to up
+2014-04-13T16:46:36.676643+00:00 heroku[web.1]: Process exited with status 0
+2014-04-13T17:50:23.958276+00:00 heroku[web.1]: State changed from up to down
+2014-04-13T17:50:23.956081+00:00 heroku[web.1]: Idling
+2014-04-13T17:50:27.206167+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-04-13T17:50:27.924135+00:00 app[web.1]: Mongoose disconnected through Heroku app shutdown
+2014-04-13T17:50:29.493329+00:00 heroku[web.1]: Process exited with status 0
+2014-04-13T23:00:27+00:00 heroku[slug-compiler]: Slug compilation started
+2014-04-13T23:00:49.712653+00:00 heroku[api]: Deploy 6ea6985 by ptoma98@gmail.com
+2014-04-13T23:00:49+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-04-13T23:00:50.034445+00:00 heroku[web.1]: State changed from down to starting
+2014-04-13T23:00:54.237218+00:00 heroku[web.1]: Starting process with command `node app.js`
+2014-04-13T23:00:49.712820+00:00 heroku[api]: Release v17 created by ptoma98@gmail.com
+2014-04-13T23:00:55.735496+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+2014-04-13T23:00:55.735813+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
+2014-04-13T23:00:55.738174+00:00 app[web.1]: 
+2014-04-13T23:00:55.738503+00:00 app[web.1]: /app/app_server/controllers/main.js:44
+2014-04-13T23:00:55.735496+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
+2014-04-13T23:00:55.738759+00:00 app[web.1]: };
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2014-04-13T23:00:55.738759+00:00 app[web.1]:  ^
+2014-04-13T23:00:55.742085+00:00 app[web.1]: SyntaxError: Unexpected token ;
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Module._compile (module.js:439:25)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at require (module.js:380:17)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/main.js:1:74)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2014-04-13T23:00:55.742085+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2014-04-13T23:00:55.742287+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2014-04-13T23:00:56.939647+00:00 heroku[web.1]: Process exited with status 8
+2014-04-13T23:00:56.947828+00:00 heroku[web.1]: State changed from crashed to starting
+2014-04-13T23:00:56.947828+00:00 heroku[web.1]: State changed from starting to crashed
+2014-04-13T23:00:59.935615+00:00 heroku[web.1]: Starting process with command `node app.js`
+2014-04-13T23:01:01.256197+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
+2014-04-13T23:01:01.256545+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+2014-04-13T23:01:01.256948+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
+2014-04-13T23:01:01.259214+00:00 app[web.1]: 
+2014-04-13T23:01:01.259599+00:00 app[web.1]: /app/app_server/controllers/main.js:44
+2014-04-13T23:01:01.259855+00:00 app[web.1]:  ^
+2014-04-13T23:01:01.259855+00:00 app[web.1]: };
+2014-04-13T23:01:01.266561+00:00 app[web.1]: SyntaxError: Unexpected token ;
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Module._compile (module.js:439:25)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at require (module.js:380:17)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/main.js:1:74)
+2014-04-13T23:01:01.266824+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2014-04-13T23:01:01.266561+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2014-04-13T23:01:02.632010+00:00 heroku[web.1]: Process exited with status 8
+2014-04-13T23:01:02.642359+00:00 heroku[web.1]: State changed from starting to crashed
+2014-04-13T23:01:18.452806+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=c537f201-aa38-45e0-b12d-476da00eaa48 fwd="70.244.74.66" dyno= connect= service= status=503 bytes=
+2014-04-13T23:04:27+00:00 heroku[slug-compiler]: Slug compilation started
+2014-04-13T23:04:44+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-04-13T23:04:44.859585+00:00 heroku[web.1]: State changed from crashed to starting
+2014-04-13T23:04:48.371233+00:00 heroku[web.1]: Starting process with command `node app.js`
+2014-04-13T23:04:44.737639+00:00 heroku[api]: Release v18 created by ptoma98@gmail.com
+2014-04-13T23:04:44.737564+00:00 heroku[api]: Deploy b6f075d by ptoma98@gmail.com
+2014-04-13T23:04:49.659296+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
+2014-04-13T23:04:49.659388+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+2014-04-13T23:04:49.670755+00:00 app[web.1]: Express server listening on port 10095
+2014-04-13T23:04:49.659837+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
+2014-04-13T23:04:49.883956+00:00 app[web.1]: Mongoose connected to mongodb://stowappuser:stowpass@oceanic.mongohq.com:10023/app23303171
+2014-04-13T23:04:50.111093+00:00 heroku[web.1]: State changed from starting to up
+2014-04-13T23:04:57.583397+00:00 app[web.1]: Getting all items ...
+2014-04-13T23:04:57.637131+00:00 app[web.1]: [ { name: 'Bugatti Veyron',
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T23:04:57.637131+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:04:57.637131+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     photo: 'youhadonejob.jpeg' },
+2014-04-13T23:04:57.637377+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T23:04:57.637377+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.637562+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     location: '',
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     notes: '',
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T23:04:57.637562+00:00 app[web.1]:     photo: 'linkedinpic.jpeg' },
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.638161+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.638161+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T23:04:57.638466+00:00 app[web.1]:   { _id: 5349f97eac8493a90d0281fa, __v: 0, receipt: {}, photo: {} },
+2014-04-13T23:04:57.638466+00:00 app[web.1]:   { name: 'ab',
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.638466+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     _id: 5349fe2e1977b86812debfc7,
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:04:57.638906+00:00 app[web.1]:   { name: 'a',
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     location: '1',
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:04:57.638906+00:00 app[web.1]:     notes: '',
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     _id: 534a00964274610a1441281e,
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:04:57.639161+00:00 app[web.1]:   { name: 'x',
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     purchase_date: Tue Apr 22 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:04:57.639161+00:00 app[web.1]:     _id: 534a04447428c89716acb55f,
+2014-04-13T23:04:57.639578+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.639578+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.639578+00:00 app[web.1]:     photo: 
+2014-04-13T23:04:57.639578+00:00 app[web.1]:        data: 
+2014-04-13T23:04:57.639578+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:04:57.639578+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:04:57.639578+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:04:57.639578+00:00 app[web.1]:           position: 49100,
+2014-04-13T23:04:57.639578+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e1 00 18 45 78 69 66 00 00 49 49 2a 00 08 00 00 00 00 00 00 00 00 00 00 00 ff ec 00 11 44 75 63 6b 79 00 01 00 04 00 00 00 3c 00 00 ff e1 03 2c ...> } } },
+2014-04-13T23:04:57.639578+00:00 app[web.1]:   { name: '12310293120',
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     location: 'bla',
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     _id: 534b14d50ecd8467015283bb,
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     purchase_date: Tue Apr 01 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     photo: 
+2014-04-13T23:04:57.639867+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T23:04:57.639867+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:04:57.639867+00:00 app[web.1]:        data: 
+2014-04-13T23:04:57.640288+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:04:57.640288+00:00 app[web.1]:           position: 32599,
+2014-04-13T23:04:57.640288+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 02 00 00 01 00 01 00 00 ff fe 00 04 2a 00 ff e2 02 1c 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 02 0c 6c 63 6d ...> } } },
+2014-04-13T23:04:57.640621+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:04:57.640288+00:00 app[web.1]:     _id: 534b16cd24d779740317dc4f,
+2014-04-13T23:04:57.640288+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:04:57.640621+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:04:57.640288+00:00 app[web.1]:   { name: 'x',
+2014-04-13T23:04:57.640288+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:04:57.640288+00:00 app[web.1]:     purchase_date: Tue Apr 01 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:04:57.640288+00:00 app[web.1]:     purchase_price: 4,
+2014-04-13T23:04:57.640288+00:00 app[web.1]:     notes: 'asdasd',
+2014-04-13T23:04:57.640621+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:04:57.640621+00:00 app[web.1]:        data: 
+2014-04-13T23:04:57.640621+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:04:57.640621+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:04:57.640621+00:00 app[web.1]:     photo: 
+2014-04-13T23:04:57.640621+00:00 app[web.1]:           position: 32599,
+2014-04-13T23:04:57.640621+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 02 00 00 01 00 01 00 00 ff fe 00 04 2a 00 ff e2 02 1c 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 02 0c 6c 63 6d ...> } } } ]
+2014-04-13T23:04:58.157421+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=4e1cdbd4-3310-40de-bd58-0715f5125f83 fwd="70.244.74.66" dyno=web.1 connect=10ms service=589ms status=200 bytes=4292
+2014-04-13T23:04:58.156154+00:00 app[web.1]: [90mGET / [32m200 [90m579ms - 3.83kb[0m
+2014-04-13T23:04:58.579952+00:00 app[web.1]: [90mGET /'linkedinpic.jpeg' [33m404 [90m10ms[0m
+2014-04-13T23:04:58.580921+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap-theme.min.css [32m200 [90m23ms - 12.88kb[0m
+2014-04-13T23:04:58.582092+00:00 app[web.1]: [90mGET /%7B%7D [33m404 [90m5ms[0m
+2014-04-13T23:04:58.588095+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [32m200 [90m22ms - 28.43kb[0m
+2014-04-13T23:04:58.581604+00:00 heroku[router]: at=info method=GET path=/'linkedinpic.jpeg' host=infinite-headland-6037.herokuapp.com request_id=d8e36e3d-73ba-4541-bba5-754ae6dc9aa7 fwd="70.244.74.66" dyno=web.1 connect=1ms service=18ms status=404 bytes=200
+2014-04-13T23:04:58.589987+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=2c8c45e3-66ad-4194-9031-c847183957de fwd="70.244.74.66" dyno=web.1 connect=2ms service=31ms status=200 bytes=29400
+2014-04-13T23:04:58.584575+00:00 heroku[router]: at=info method=GET path=/%7B%7D host=infinite-headland-6037.herokuapp.com request_id=5901168f-4be5-4e57-af15-c2c55e69ecb6 fwd="70.244.74.66" dyno=web.1 connect=19ms service=29ms status=404 bytes=188
+2014-04-13T23:04:58.594928+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=de0e4b2c-213a-4345-9720-eeb7d0e328cf fwd="70.244.74.66" dyno=web.1 connect=2ms service=32ms status=200 bytes=100266
+2014-04-13T23:04:58.584334+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap-theme.min.css host=infinite-headland-6037.herokuapp.com request_id=27661e53-9b17-45cc-ab28-4a38d6bac5cc fwd="70.244.74.66" dyno=web.1 connect=9ms service=28ms status=200 bytes=13476
+2014-04-13T23:04:58.651888+00:00 heroku[router]: at=info method=GET path=/%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e1%2000%2018%2045%2078%2069%2066%2000%2000%2049%2049%202a%2000%2008%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%20ff%20ec%2000%2011%2044%2075%2063%206b%2079%2000%2001%2000%2004%2000%2000%2000%203c%2000%2000%20ff%20e1%2003%202c%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D host=infinite-headland-6037.herokuapp.com request_id=722bf7c6-248d-4ad1-a84e-1ab2636423ac fwd="70.244.74.66" dyno=web.1 connect=1ms service=5ms status=404 bytes=510
+2014-04-13T23:04:58.593529+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [32m200 [90m26ms - 97.63kb[0m
+2014-04-13T23:04:58.625710+00:00 app[web.1]: [90mGET /'youhadonejob.jpeg' [33m404 [90m1ms[0m
+2014-04-13T23:04:58.649476+00:00 app[web.1]: [90mGET /%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e1%2000%2018%2045%2078%2069%2066%2000%2000%2049%2049%202a%2000%2008%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%20ff%20ec%2000%2011%2044%2075%2063%206b%2079%2000%2001%2000%2004%2000%2000%2000%203c%2000%2000%20ff%20e1%2003%202c%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D [33m404 [90m2ms[0m
+2014-04-13T23:04:58.637216+00:00 heroku[router]: at=info method=GET path=/'youhadonejob.jpeg' host=infinite-headland-6037.herokuapp.com request_id=fcca9d75-3477-4afe-99b8-edd16b3715b0 fwd="70.244.74.66" dyno=web.1 connect=6ms service=14ms status=404 bytes=201
+2014-04-13T23:04:58.673146+00:00 app[web.1]: [90mGET /%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e0%2000%2010%204a%2046%2049%2046%2000%2001%2002%2000%2000%2001%2000%2001%2000%2000%20ff%20fe%2000%2004%202a%2000%20ff%20e2%2002%201c%2049%2043%2043%205f%2050%2052%204f%2046%2049%204c%2045%2000%2001%2001%2000%2000%2002%200c%206c%2063%206d%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D [33m404 [90m4ms[0m
+2014-04-13T23:04:58.678247+00:00 heroku[router]: at=info method=GET path=/%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e0%2000%2010%204a%2046%2049%2046%2000%2001%2002%2000%2000%2001%2000%2001%2000%2000%20ff%20fe%2000%2004%202a%2000%20ff%20e2%2002%201c%2049%2043%2043%205f%2050%2052%204f%2046%2049%204c%2045%2000%2001%2001%2000%2000%2002%200c%206c%2063%206d%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D host=infinite-headland-6037.herokuapp.com request_id=20909b1e-c491-4bbe-b2e3-013aebbeb3b9 fwd="70.244.74.66" dyno=web.1 connect=3ms service=8ms status=404 bytes=510
+2014-04-13T23:05:03.338629+00:00 heroku[router]: at=info method=GET path=/add/item host=infinite-headland-6037.herokuapp.com request_id=e2f3b4b2-0d98-472e-8ecd-60303fc3522b fwd="70.244.74.66" dyno=web.1 connect=7ms service=119ms status=200 bytes=2531
+2014-04-13T23:05:03.452919+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=e7440a40-c50f-401a-a76c-48b37416a4ba fwd="70.244.74.66" dyno=web.1 connect=3ms service=5ms status=304 bytes=239
+2014-04-13T23:05:03.463335+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=112227c3-53e1-4a8c-b689-8512dbab07c3 fwd="70.244.74.66" dyno=web.1 connect=1ms service=2ms status=304 bytes=239
+2014-04-13T23:05:03.474819+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap-theme.min.css host=infinite-headland-6037.herokuapp.com request_id=f75bc386-554f-4565-91a6-a1bbf457e8e6 fwd="70.244.74.66" dyno=web.1 connect=4ms service=12ms status=304 bytes=239
+2014-04-13T23:05:03.335155+00:00 app[web.1]: [90mGET /add/item [32m200 [90m113ms - 2.29kb[0m
+2014-04-13T23:05:03.463157+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m1ms[0m
+2014-04-13T23:05:03.465874+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap-theme.min.css [36m304 [90m1ms[0m
+2014-04-13T23:05:03.451973+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m3ms[0m
+2014-04-13T23:05:22.750038+00:00 app[web.1]: { name: '123123',
+2014-04-13T23:05:22.750038+00:00 app[web.1]:   location: 'a',
+2014-04-13T23:05:22.750038+00:00 app[web.1]:   purchase_date: '2014-04-23',
+2014-04-13T23:05:22.750038+00:00 app[web.1]:   Submit: 'Submit' }
+2014-04-13T23:05:22.751933+00:00 app[web.1]:    { fieldName: 'photo',
+2014-04-13T23:05:22.751933+00:00 app[web.1]:      path: '/tmp/2-npkj56.jpg',
+2014-04-13T23:05:22.750038+00:00 app[web.1]:   purchase_price: '1',
+2014-04-13T23:05:22.751933+00:00 app[web.1]:      originalFilename: 'profilepic.jpg',
+2014-04-13T23:05:22.751933+00:00 app[web.1]:      headers: 
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         flags: 'w',
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         path: '/tmp/2-npkj56.jpg',
+2014-04-13T23:05:22.751933+00:00 app[web.1]: { photo: 
+2014-04-13T23:05:22.750038+00:00 app[web.1]:   notes: '1',
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         pos: undefined,
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         bytesWritten: 32599,
+2014-04-13T23:05:22.751933+00:00 app[web.1]:       { 'content-disposition': 'form-data; name="photo"; filename="profilepic.jpg"',
+2014-04-13T23:05:22.751933+00:00 app[web.1]:         'content-type': 'image/jpeg' },
+2014-04-13T23:05:22.751933+00:00 app[web.1]:      ws: 
+2014-04-13T23:05:22.751933+00:00 app[web.1]:       { _writableState: [Object],
+2014-04-13T23:05:22.751933+00:00 app[web.1]:         writable: true,
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         domain: null,
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         _events: [Object],
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         _maxListeners: 10,
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         mode: 438,
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         fd: null,
+2014-04-13T23:05:22.752128+00:00 app[web.1]:         start: undefined,
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         closed: true,
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         _write: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         destroySoon: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         destroy: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         end: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         addListener: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         on: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         once: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         removeListener: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         emit: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         write: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         setMaxListeners: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:      size: 32599,
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         listeners: [Function] },
+2014-04-13T23:05:22.752839+00:00 app[web.1]:         removeAllListeners: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         close: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         pipe: [Function],
+2014-04-13T23:05:22.752305+00:00 app[web.1]:         open: [Function],
+2014-04-13T23:05:22.752839+00:00 app[web.1]:      name: 'profilepic.jpg',
+2014-04-13T23:05:22.753102+00:00 app[web.1]:   receipt: 
+2014-04-13T23:05:22.753102+00:00 app[web.1]:    { fieldName: 'receipt',
+2014-04-13T23:05:22.753102+00:00 app[web.1]:      originalFilename: 'profilepic.jpg',
+2014-04-13T23:05:22.753102+00:00 app[web.1]:      path: '/tmp/2-ucx0tx.jpg',
+2014-04-13T23:05:22.753102+00:00 app[web.1]:      headers: 
+2014-04-13T23:05:22.753102+00:00 app[web.1]:       { 'content-disposition': 'form-data; name="receipt"; filename="profilepic.jpg"',
+2014-04-13T23:05:22.752839+00:00 app[web.1]:      type: 'image/jpeg' },
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         domain: null,
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         _events: [Object],
+2014-04-13T23:05:22.753102+00:00 app[web.1]:         'content-type': 'image/jpeg' },
+2014-04-13T23:05:22.753102+00:00 app[web.1]:         writable: true,
+2014-04-13T23:05:22.753102+00:00 app[web.1]:       { _writableState: [Object],
+2014-04-13T23:05:22.753102+00:00 app[web.1]:      ws: 
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         _maxListeners: 10,
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         path: '/tmp/2-ucx0tx.jpg',
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         fd: null,
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         flags: 'w',
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         mode: 438,
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         start: undefined,
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         pos: undefined,
+2014-04-13T23:05:22.753506+00:00 app[web.1]:         bytesWritten: 32599,
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         closed: true,
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         open: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         _write: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         destroy: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         close: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         write: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         destroySoon: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         pipe: [Function],
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         end: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         emit: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         addListener: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         on: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         once: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         removeListener: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         removeAllListeners: [Function],
+2014-04-13T23:05:22.754109+00:00 app[web.1]:         listeners: [Function] },
+2014-04-13T23:05:22.754109+00:00 app[web.1]:      size: 32599,
+2014-04-13T23:05:22.754109+00:00 app[web.1]:      name: 'profilepic.jpg',
+2014-04-13T23:05:22.755976+00:00 app[web.1]: { name: '123123',
+2014-04-13T23:05:22.754109+00:00 app[web.1]:      type: 'image/jpeg' } }
+2014-04-13T23:05:22.753701+00:00 app[web.1]:         setMaxListeners: [Function],
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   location: 'a',
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   purchase_date: Wed Apr 23 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   purchase_price: 1,
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   notes: '1',
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   receipt: {},
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   photo: 
+2014-04-13T23:05:22.755976+00:00 app[web.1]:    { contentType: 'image/jpeg',
+2014-04-13T23:05:22.755976+00:00 app[web.1]:      data: 
+2014-04-13T23:05:22.755976+00:00 app[web.1]:   _id: 534b18328b05060200de445d,
+2014-04-13T23:05:22.756157+00:00 app[web.1]:         sub_type: 0,
+2014-04-13T23:05:22.756157+00:00 app[web.1]:         position: 32599,
+2014-04-13T23:05:22.756157+00:00 app[web.1]:       { _bsontype: 'Binary',
+2014-04-13T23:05:22.756157+00:00 app[web.1]:         buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 02 00 00 01 00 01 00 00 ff fe 00 04 2a 00 ff e2 02 1c 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 02 0c 6c 63 6d ...> } } }
+2014-04-13T23:05:22.767494+00:00 heroku[router]: at=info method=POST path=/add/item host=infinite-headland-6037.herokuapp.com request_id=04e51dd8-6636-4257-a7bc-e4d2fbcfb730 fwd="70.244.74.66" dyno=web.1 connect=14ms service=779ms status=302 bytes=258
+2014-04-13T23:05:22.767273+00:00 app[web.1]: Item: 123123 saved!
+2014-04-13T23:05:22.767339+00:00 app[web.1]: _id of user: 534b18328b05060200de445d
+2014-04-13T23:05:22.828898+00:00 app[web.1]: Getting all items ...
+2014-04-13T23:05:22.765314+00:00 app[web.1]: [90mPOST /add/item [36m302 [90m778ms - 58b[0m
+2014-04-13T23:05:22.877935+00:00 app[web.1]: [ { name: 'Bugatti Veyron',
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     purchase_date: Wed Apr 30 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     notes: 'vroom vroom',
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     _id: 534989f0b2b400b25fe32f87,
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.877935+00:00 app[web.1]:   { name: 'Gold Chain with Dollar Bill Medallion',
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     location: 'Safe',
+2014-04-13T23:05:22.877935+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     purchase_date: Sat Apr 12 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     purchase_price: 5000,
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     notes: '$$$$',
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     _id: 53498dd049fa30356321249a,
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     receipt: 'youhadonejob.jpeg',
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     location: 'Garage',
+2014-04-13T23:05:22.878138+00:00 app[web.1]:     photo: 'youhadonejob.jpeg' },
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     purchase_date: Thu Mar 14 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.878138+00:00 app[web.1]:   { name: 'new item created on heroku',
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     purchase_price: 5,
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     notes: 'tester',
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     photo: 'linkedinpic.jpeg' },
+2014-04-13T23:05:22.878327+00:00 app[web.1]:   { name: 'Marynika',
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     location: '',
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     receipt: 'linkedinpic.jpeg',
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     purchase_date: null,
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     purchase_price: null,
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     notes: '',
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     _id: 5349de85fdefdf0200e7aac6,
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     _id: 53498ee615bbaf0200fac6f7,
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:05:22.878327+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     location: 'In her hand',
+2014-04-13T23:05:22.878892+00:00 app[web.1]:   { name: 'Marynika\'s iPhone',
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     purchase_date: Fri Aug 09 2013 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.878892+00:00 app[web.1]:     purchase_price: 380,
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     notes: 'white iPhone 4s',
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     _id: 5349debafdefdf0200e7aac7,
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:05:22.879076+00:00 app[web.1]:   { _id: 5349f97eac8493a90d0281fa, __v: 0, receipt: {}, photo: {} },
+2014-04-13T23:05:22.879076+00:00 app[web.1]:   { name: 'ab',
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     _id: 5349fe2e1977b86812debfc7,
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     purchase_date: Wed Apr 02 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:05:22.879076+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:05:22.879446+00:00 app[web.1]:   { name: 'a',
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     purchase_date: Wed Apr 16 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     _id: 534a00964274610a1441281e,
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     notes: '',
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.879446+00:00 app[web.1]:     location: '1',
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     photo: {} },
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     _id: 534a04447428c89716acb55f,
+2014-04-13T23:05:22.880026+00:00 app[web.1]:     photo: 
+2014-04-13T23:05:22.880026+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.880026+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.879626+00:00 app[web.1]:   { name: 'x',
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:05:22.879626+00:00 app[web.1]:     purchase_date: Tue Apr 22 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.880026+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:05:22.880026+00:00 app[web.1]:        data: 
+2014-04-13T23:05:22.880026+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:05:22.880026+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e1 00 18 45 78 69 66 00 00 49 49 2a 00 08 00 00 00 00 00 00 00 00 00 00 00 ff ec 00 11 44 75 63 6b 79 00 01 00 04 00 00 00 3c 00 00 ff e1 03 2c ...> } } },
+2014-04-13T23:05:22.880026+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:05:22.880026+00:00 app[web.1]:           position: 49100,
+2014-04-13T23:05:22.880026+00:00 app[web.1]:   { name: '12310293120',
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     location: 'bla',
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     purchase_date: Tue Apr 01 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     purchase_price: 1000000,
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     _id: 534b14d50ecd8467015283bb,
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.880205+00:00 app[web.1]:     photo: 
+2014-04-13T23:05:22.880205+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:05:22.880205+00:00 app[web.1]:        data: 
+2014-04-13T23:05:22.880569+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:05:22.880569+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:05:22.880569+00:00 app[web.1]:           position: 32599,
+2014-04-13T23:05:22.880569+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 02 00 00 01 00 01 00 00 ff fe 00 04 2a 00 ff e2 02 1c 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 02 0c 6c 63 6d ...> } } },
+2014-04-13T23:05:22.880569+00:00 app[web.1]:   { name: 'x',
+2014-04-13T23:05:22.880569+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:05:22.880569+00:00 app[web.1]:     purchase_date: Tue Apr 01 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.880569+00:00 app[web.1]:     _id: 534b16cd24d779740317dc4f,
+2014-04-13T23:05:22.880569+00:00 app[web.1]:     purchase_price: 4,
+2014-04-13T23:05:22.880749+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.880569+00:00 app[web.1]:     notes: 'asdasd',
+2014-04-13T23:05:22.880749+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.880749+00:00 app[web.1]:     photo: 
+2014-04-13T23:05:22.880749+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:05:22.880749+00:00 app[web.1]:        data: 
+2014-04-13T23:05:22.880749+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:05:22.880749+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:05:22.880749+00:00 app[web.1]:           position: 32599,
+2014-04-13T23:05:22.880749+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 02 00 00 01 00 01 00 00 ff fe 00 04 2a 00 ff e2 02 1c 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 02 0c 6c 63 6d ...> } } },
+2014-04-13T23:05:22.880749+00:00 app[web.1]:   { name: '123123',
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     location: 'a',
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     purchase_date: Wed Apr 23 2014 00:00:00 GMT+0000 (UTC),
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     purchase_price: 1,
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     notes: '1',
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     _id: 534b18328b05060200de445d,
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     __v: 0,
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     receipt: {},
+2014-04-13T23:05:22.881139+00:00 app[web.1]:     photo: 
+2014-04-13T23:05:22.881139+00:00 app[web.1]:      { contentType: 'image/jpeg',
+2014-04-13T23:05:22.881139+00:00 app[web.1]:        data: 
+2014-04-13T23:05:22.881335+00:00 app[web.1]:         { _bsontype: 'Binary',
+2014-04-13T23:05:22.881335+00:00 app[web.1]:           sub_type: 0,
+2014-04-13T23:05:22.881335+00:00 app[web.1]:           position: 32599,
+2014-04-13T23:05:22.881335+00:00 app[web.1]:           buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 02 00 00 01 00 01 00 00 ff fe 00 04 2a 00 ff e2 02 1c 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 02 0c 6c 63 6d ...> } } } ]
+2014-04-13T23:05:22.959174+00:00 heroku[router]: at=info method=GET path=/ host=infinite-headland-6037.herokuapp.com request_id=056a707d-a2e0-4ff7-9f53-c72c344ba203 fwd="70.244.74.66" dyno=web.1 connect=3ms service=132ms status=200 bytes=4503
+2014-04-13T23:05:22.948950+00:00 app[web.1]: [90mGET / [32m200 [90m120ms - 4.16kb[0m
+2014-04-13T23:05:23.072581+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap.min.css host=infinite-headland-6037.herokuapp.com request_id=c4e4000f-c868-4cd3-8710-513ae1ca048b fwd="70.244.74.66" dyno=web.1 connect=1ms service=3ms status=304 bytes=239
+2014-04-13T23:05:23.072290+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap.min.css [36m304 [90m1ms[0m
+2014-04-13T23:05:23.082785+00:00 app[web.1]: [90mGET /bootstrap/css/bootstrap-theme.min.css [36m304 [90m1ms[0m
+2014-04-13T23:05:23.089075+00:00 app[web.1]: [90mGET /%7B%7D [33m404 [90m0ms[0m
+2014-04-13T23:05:23.098220+00:00 app[web.1]: [90mGET /'youhadonejob.jpeg' [33m404 [90m2ms[0m
+2014-04-13T23:05:23.106681+00:00 heroku[router]: at=info method=GET path=/'linkedinpic.jpeg' host=infinite-headland-6037.herokuapp.com request_id=2eb9d441-fb22-425d-919b-48439e134372 fwd="70.244.74.66" dyno=web.1 connect=1ms service=5ms status=404 bytes=200
+2014-04-13T23:05:23.084171+00:00 heroku[router]: at=info method=GET path=/bootstrap/css/bootstrap-theme.min.css host=infinite-headland-6037.herokuapp.com request_id=01271edb-1d60-4f12-9afb-9b5025dc6213 fwd="70.244.74.66" dyno=web.1 connect=2ms service=3ms status=304 bytes=239
+2014-04-13T23:05:23.090668+00:00 heroku[router]: at=info method=GET path=/%7B%7D host=infinite-headland-6037.herokuapp.com request_id=b2bec7bc-05cb-405c-ad36-c22f59b8907c fwd="70.244.74.66" dyno=web.1 connect=1ms service=3ms status=404 bytes=188
+2014-04-13T23:05:23.099309+00:00 heroku[router]: at=info method=GET path=/'youhadonejob.jpeg' host=infinite-headland-6037.herokuapp.com request_id=2893c0f3-07e9-4202-83bf-3f1179541154 fwd="70.244.74.66" dyno=web.1 connect=1ms service=4ms status=404 bytes=201
+2014-04-13T23:05:23.105729+00:00 app[web.1]: [90mGET /'linkedinpic.jpeg' [33m404 [90m3ms[0m
+2014-04-13T23:05:23.120513+00:00 app[web.1]: [90mGET /%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e1%2000%2018%2045%2078%2069%2066%2000%2000%2049%2049%202a%2000%2008%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%20ff%20ec%2000%2011%2044%2075%2063%206b%2079%2000%2001%2000%2004%2000%2000%2000%203c%2000%2000%20ff%20e1%2003%202c%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D [33m404 [90m3ms[0m
+2014-04-13T23:05:23.149055+00:00 app[web.1]: [90mGET /bootstrap/js/bootstrap.min.js [36m304 [90m0ms[0m
+2014-04-13T23:05:23.122750+00:00 heroku[router]: at=info method=GET path=/%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e1%2000%2018%2045%2078%2069%2066%2000%2000%2049%2049%202a%2000%2008%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%2000%20ff%20ec%2000%2011%2044%2075%2063%206b%2079%2000%2001%2000%2004%2000%2000%2000%203c%2000%2000%20ff%20e1%2003%202c%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D host=infinite-headland-6037.herokuapp.com request_id=7b1ddf70-2323-4399-89d7-531f6ff4d4b9 fwd="70.244.74.66" dyno=web.1 connect=2ms service=6ms status=404 bytes=510
+2014-04-13T23:05:23.150829+00:00 heroku[router]: at=info method=GET path=/bootstrap/js/bootstrap.min.js host=infinite-headland-6037.herokuapp.com request_id=73d0508c-8f08-4191-98c8-90a34bd7292f fwd="70.244.74.66" dyno=web.1 connect=1ms service=3ms status=304 bytes=239
+2014-04-13T23:05:23.165887+00:00 heroku[router]: at=info method=GET path=/%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e0%2000%2010%204a%2046%2049%2046%2000%2001%2002%2000%2000%2001%2000%2001%2000%2000%20ff%20fe%2000%2004%202a%2000%20ff%20e2%2002%201c%2049%2043%2043%205f%2050%2052%204f%2046%2049%204c%2045%2000%2001%2001%2000%2000%2002%200c%206c%2063%206d%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D host=infinite-headland-6037.herokuapp.com request_id=eeb1fc5e-44f7-4750-b9a7-a01a1595ac46 fwd="70.244.74.66" dyno=web.1 connect=2ms service=6ms status=404 bytes=510
+2014-04-13T23:05:23.166245+00:00 app[web.1]: [90mGET /%7B%20data:%20%3CBuffer%20ff%20d8%20ff%20e0%2000%2010%204a%2046%2049%2046%2000%2001%2002%2000%2000%2001%2000%2001%2000%2000%20ff%20fe%2000%2004%202a%2000%20ff%20e2%2002%201c%2049%2043%2043%205f%2050%2052%204f%2046%2049%204c%2045%2000%2001%2001%2000%2000%2002%200c%206c%2063%206d%20...%3E,%20%20contentType:%20'image/jpeg'%20%7D [33m404 [90m5ms[0m

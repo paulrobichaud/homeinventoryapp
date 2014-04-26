@@ -9,7 +9,7 @@ module.exports.signin = function(req, res){
 };
 
 /* test method for testing stuff */
-module.exports.test = function(req, res){
+module.exports.test = function(localFilePath, s3FileName, fileContentType){
 
 var s3 = require('s3');
 
@@ -21,12 +21,12 @@ var client = s3.createClient({
 console.log("CLIENT: " + client);
 
 var headers = {
-  'Content-Type' : 'image/jpg',
+  'Content-Type' :  fileContentType,
   'x-amz-acl' : 'public-read'
 };
 
 // upload file to s3
-var uploader = client.upload('/tmp/audi.jpeg', 'audi.jpg', headers);
+var uploader = client.upload(localFilePath, s3FileName, headers);
 
 uploader.on('error', function(err) {
   console.error('unable to upload: ', err.stack);
@@ -39,3 +39,4 @@ uploader.on('end', function(url){
 });
 
 };
+

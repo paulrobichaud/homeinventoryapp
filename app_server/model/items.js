@@ -5,8 +5,8 @@ var itemSchema = new mongoose.Schema({
   location: String,
   purchase_date: Date,
   purchase_price: Number,
-  photo: { data: Buffer, contentType: String }, 
-  receipt: { data: Buffer, contentType: String}, 
+  photo: String, 
+  receipt: String, 
   notes: String
 })
 
